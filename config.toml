@@ -1,0 +1,28 @@
+# Main Configuration
+baseURL = "https://rhinops-devops-bootcamp.gitlab.io"
+languageCode = "en-us"
+title = "DevOps Bootcamp"
+
+# Theme Configuration
+theme = "hugo-theme-learn"
+uglyurls = false
+sectionPagesMenu = "main"
+relativeURLs = true
+
+[params]
+editURL = "https://gitlab.com/rhinops-devops-bootcamp/bootcamp-website"
+themeVariant = "mine"
+showVisitedLinks = false
+author = "RhinOps"
+description = "DevOps Bootcamp"
+disableSearch = false
+disableLandingPageButton = true
+disableAssetsBusting = false
+disableLanguageSwitchingButton = true
+disableShortcutsTitle=false
+disableInlineCopyToClipBoard = true
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+page = [ "HTML" ]

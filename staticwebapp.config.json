@@ -1,0 +1,78 @@
+{
+    "routes": [
+      {
+        "route": "/",
+        "allowedRoles": ["anonymous","student","employee","class4student"]
+      },
+      {
+        "route": "/introduction/*",
+        "allowedRoles": ["student","employee","class4student"]
+      },
+      {
+        "route": "/week-01/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-02/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-03/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-04/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-05/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-06/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-07/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-08/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-11+12/*",
+        "allowedRoles": ["employee","student","class4student"]
+      },
+      {
+        "route": "/week-13/*",
+        "allowedRoles": ["employee","student"]
+      },
+      {
+        "route": "/week-11/*",
+        "allowedRoles": ["employee","student"]
+      },
+      {
+        "route": "/week-12/*",
+        "allowedRoles": ["employee"]
+      },
+      {
+        "route": "/login",
+        "rewrite": "login.html"
+      },
+      {
+        "route": "/.auth/login/twitter",
+        "statusCode": 404
+      },
+      {
+        "route": "/logout",
+        "redirect": "/.auth/logout"
+      }
+    ],
+    "responseOverrides": {
+      "401": {
+          "statusCode": 302,
+          "redirect": "/login.html"
+        }
+      }
+  }
