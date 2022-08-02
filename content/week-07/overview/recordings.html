@@ -1,0 +1,102 @@
+---
+title: "Recordings"
+date: 2018-10-03T10:15:55-07:00
+draft: false
+weight: 60
+---
+
+<div class="tab">
+  <button class="tablinks" onclick="openVideo(event, 'Session1')">Kickoff + Lecture #1</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session2')">Project Review + Lecture #2</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session3')">Bootcamp news + Infracost +Open session</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session4')">Bonus Lecture - Artifacts and Package managers</button>
+</div>
+
+<div id="Session1" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2007%20-%20kickoff%20%2B%20Lecture1.mp4?sp=r&st=2022-06-27T13:36:57Z&se=2023-06-27T21:36:57Z&spr=https&sv=2021-06-08&sr=b&sig=jNlcobU4vKz1gprHM45W9yb2PdCLHt6wHtmRNcoAMDU%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session2" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2007%20Project%20review%20%2B%20Lecture%20%232.mp4?sp=r&st=2022-06-28T09:58:00Z&se=2023-06-28T17:58:00Z&spr=https&sv=2021-06-08&sr=b&sig=dXFRF2yRpD2ipPsFDrN9XlsIgfjM3f9sypd6N5r6fEE%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session3" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2007%20-%20Bootcamp%20new%20%2B%20Infracost%20%2BOpen%20session.mp4?sp=r&st=2022-06-30T08:20:26Z&se=2023-06-30T16:20:26Z&spr=https&sv=2021-06-08&sr=b&sig=WOHAm8cN2%2FrbCmXLjWqDRO0pQhWsjmRnAg3Uwk4EtWQ%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session4" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2007%20-%20Bonus%20Lecture%20-%20Artifacts%20and%20Package%20managers.mp4?sp=r&st=2022-06-30T08:37:49Z&se=2023-06-30T16:37:49Z&spr=https&sv=2021-06-08&sr=b&sig=8LVYMoky9ekPfxUPhXSGWXoYL69Cv6OMmZFAn7NImwA%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Tabs Script -->
+
+<script>
+function openVideo(evt, videoName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(videoName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<!-- CSS -->
+
+<style>
+    body {font-family: Arial;}
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>

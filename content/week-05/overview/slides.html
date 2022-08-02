@@ -1,0 +1,94 @@
+---
+title: "Slides"
+date: 2018-10-03T10:15:55-07:00
+draft: false
+weight: 70
+---
+
+<div class="tab">
+  <button class="tablinks" onclick="openVideo(event, 'Session1')">KickOff</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session2')">Lecture #1</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session3')">Project Review</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session4')">Lecture #2</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session5')">Lecture #3</button>
+</div>
+
+<div id="Session1" class="tabcontent">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJNlinbAfRrrIiXxEEvhS-zcJjt9L5CZYR2oKgJAO0bJwHJ9jBMKug0Ckv5wZwpg/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<div id="Session2" class="tabcontent">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSeh37V6dRe8A-5uDVABu3bbOPsPrUio83uUpK2WXPCJfzW22yLJIMTj43dDXLQXQ/embed?" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<div id="Session3" class="tabcontent">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSwa6RYY6sEopI2SE8UUwunW8_NGl3jVaJ3tQHeNRugUQg6P4fKuoQ8VX5gy-3Mmg/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<div id="Session4" class="tabcontent">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSKI6Qfk9aqz2WEdWORHcYBZ0NEYSZD5sMJ_K-AHcWoR3cUgc7aOK-1w7Bu_EgQWA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<div id="Session5" class="tabcontent">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTW5CiC5S1eX-Mqu1Ge1kVKPHluWxtsY3aoqiPOd6jL37V3ycl00as3CQHm0SrExw/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+<!-- Tabs Script -->
+
+<script>
+function openVideo(evt, videoName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(videoName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<!-- CSS -->
+
+<style>
+    body {font-family: Arial;}
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>

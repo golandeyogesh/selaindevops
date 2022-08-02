@@ -1,0 +1,12 @@
+---
+title: "Objectives"
+date: 2018-10-03T10:15:55-07:00
+draft: false
+weight: 20
+---
+
+- Give a solid understanding of what is Configuration Management
+- Understand why do we need CM
+- Know the main tools used to implement CM
+- Introduction to Ansible
+- Learn about best practices

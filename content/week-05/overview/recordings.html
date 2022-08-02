@@ -1,0 +1,118 @@
+---
+title: "Recordings"
+date: 2018-10-03T10:15:55-07:00
+draft: false
+weight: 60
+---
+
+<div class="tab">
+  <button class="tablinks" onclick="openVideo(event, 'Session1')">Kickoff</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session2')">Lecture #1 Part A</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session3')">Lecture #1 Part B</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session4')">Project review</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session5')">Lecture #2</button>
+  <button class="tablinks" onclick="openVideo(event, 'Session6')">Lecture #3</button>
+</div>
+
+<div id="Session1" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20-%20Kickoffmp4.mp4?sp=r&st=2022-06-14T07:40:10Z&se=2023-06-14T15:40:10Z&spr=https&sv=2021-06-08&sr=b&sig=VtxjNFRm5rIm6vNYLfop9rmT03S%2FzhIa%2FgaVZPQjsEc%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session2" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20-%20Lecture%201%20-%20Part%20A.mp4?sp=r&st=2022-06-14T07:01:31Z&se=2023-06-14T15:01:31Z&spr=https&sv=2021-06-08&sr=b&sig=ozvUh2vEEsClqEnt6rjMboxUaSJIwosyGvFKinfIQ1E%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session3" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20-%20Lecture%201%20-%20part%20B.mp4?sp=r&st=2022-06-14T07:03:46Z&se=2023-06-14T15:03:46Z&spr=https&sv=2021-06-08&sr=b&sig=YZIHUPLQRW0nfr3PRQ6NnLRyDhFpWPJec5IDUktrgFg%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session4" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20Project%20review.mp4?sp=r&st=2022-06-15T09:18:03Z&se=2023-06-15T17:18:03Z&spr=https&sv=2021-06-08&sr=b&sig=vJMg0MVemzdpyUQeyO%2FUqAZ2Sn7eZtIS0z1Ot3CN82Q%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session5" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20Lecture2.mp4?sp=r&st=2022-06-15T09:17:39Z&se=2023-06-15T17:17:39Z&spr=https&sv=2021-06-08&sr=b&sig=6ezyxf5O%2BLhcf2WEaTJzkqBeckMaiiuLNyyVAIzG2Ms%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div id="Session6" class="tabcontent">
+  <video width="100%" height="100%" controls controlsList="nodownload" preload autobuffer poster="/images/recording-poster.png">
+    <source src="https://devopsbootcamp.blob.core.windows.net/recordings/class4/Week%2005%20-%20Lecture3.mp4?sp=r&st=2022-06-16T08:07:19Z&se=2023-06-16T16:07:19Z&spr=https&sv=2021-06-08&sr=b&sig=Ary4BeGDK5CabicxZEdQDkWl9nI5UJ5b3E1JyCmfgNU%3D" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Tabs Script -->
+
+<script>
+function openVideo(evt, videoName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(videoName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<!-- CSS -->
+
+<style>
+    body {font-family: Arial;}
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+</style>
