@@ -14,35 +14,35 @@
       },
       {
         "route": "/week-02/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-03/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-04/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-05/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-06/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-07/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-08/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-11+12/*",
-        "allowedRoles": ["employee","student","class4student"]
+        "allowedRoles": ["employee","student"]
       },
       {
         "route": "/week-13/*",
