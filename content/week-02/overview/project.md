@@ -107,4 +107,4 @@ Notes:
 
 ## Delivery
 
-- For the delivery of the project fill out the following form: [Delivery Form](https://forms.gle/2Jogxz9tZeAwx1qVA)
+- For the delivery of the project fill out the following form: [Delivery Form](https://forms.gle/xja1J3RncKh8Sm3o8)

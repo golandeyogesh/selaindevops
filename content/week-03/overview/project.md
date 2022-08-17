@@ -75,7 +75,7 @@ Some important notes:
 
 ## Delivery
 
-- Grant rhinopsbootcamp@outlook.com access to your application, Please set the password to be:  SelaBootcamp4! (okta)
-- Fill out the following form: [Delivery Form](https://forms.gle/pj8uKVTBcTk6GPur8)
+- Grant selaindiabootcamp@outlook.com access to your application, Please set the password to be:  SelaBootcamp4! (okta)
+- Fill out the following form: [Delivery Form](https://forms.gle/bzvvU63DQdnwyHDB7)
 - Send on your 1-on-1 channel a screenshot of the Weight Tracker application running in your browser (after adding some data)
 - Send on your 1-on-1 channel a screenshot of you IIS application
