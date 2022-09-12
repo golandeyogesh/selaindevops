@@ -46,6 +46,6 @@ This week’s project consists of using Azure Pipelines to configure a complete 
 ## Delivery
 - Fill out the following form: [Delivery Form](https://forms.gle/WRs5SRp3JUW2ewR8A) 
 - Any additional files that have not been uploaded to git for security reasons must be submitted by discord
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level
-- Grant rhinopsbootcamp@outlook.com access to your application (okta)
-- Add rhinopsbootcamp@outlook.com as a Admin user in your Azure DevOps Project.
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level
+- Grant selaindiabootcamp@outlook.com access to your application (okta)
+- Add selaindiabootcamp@outlook.com as a Admin user in your Azure DevOps Project.

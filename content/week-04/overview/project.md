@@ -25,7 +25,7 @@ For this project you will need to create all the infrastructure required for the
 - Configure the database
 - Configure the web server
 - Ensure the application is up and running (and work automatically after reboot)
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level (required in order to be able to perform the evaluation)
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level (required in order to be able to perform the evaluation)
 
 
 ### Considerations
@@ -40,7 +40,7 @@ For this project you will need to create all the infrastructure required for the
 - Database server not accessible from the internet
 - Ensure that your application and databases start automatically when an instance is rebooted 
 - Ensure that your data is persistent
-- The user rhinopsbootcamp@outlook.com have contributor access to your subscription
+- The user selaindiabootcamp@outlook.com have contributor access to your subscription
 
 ### Bonus
 ![Project-3-Bonus](/images/week-3-project-bonus.png)
@@ -51,8 +51,8 @@ For this project you will need to create all the infrastructure required for the
 **Note:** Up to 2 bonuses will be evaluated. However, in case of doing all of them, the points will be awarded to the two best and you will receive feedback for each of them.
 
 ### Delivery
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level
-- Grant rhinopsbootcamp@outlook.com access to your application, Please set the password to be:  SelaBootcamp4! (okta)
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level
+- Grant selaindiabootcamp@outlook.com access to your application, Please set the password to be:  SelaBootcamp4! (okta)
 - Fill out the following form: [Delivery Form](https://forms.gle/Utwc9n5A3zrfnze3A)
 - Send a print screen in your 1-on-1 channel showing the resources created in your resource group
 - Send on your 1-on-1 channel a screenshot of the Weight Tracker application running in your browser (after adding some data)

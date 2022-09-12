@@ -123,6 +123,6 @@ stages:
 ## Delivery
 - Fill out the following form: [Delivery Form](https://forms.gle/YCh63qWYS3JiC4Bw6)
 - Any additional files that have not been uploaded to git for security reasons must be submitted by discord
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level
-- Grant rhinopsbootcamp@outlook.com access to your application (okta)
-- Grant rhinopsbootcamp@outlook.com Contributor access to your Azure DevOps Project
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level
+- Grant selaindiabootcamp@outlook.com access to your application (okta)
+- Grant selaindiabootcamp@outlook.com Contributor access to your Azure DevOps Project

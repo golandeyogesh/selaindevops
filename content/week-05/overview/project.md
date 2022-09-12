@@ -42,8 +42,8 @@ In this week’s project we are going to recreate the infrastructure of the Weig
 - The WeightTracker application up and running
 - Database server is not accessible from the internet
 - Ensure that your application and databases start automatically when an instance is rebooted
-- The user rhinopsbootcamp@outlook.com have contributor access to your subscription
-- The user rhinopsbootcamp@outlook.com have access to your application (okta)
+- The user selaindiabootcamp@outlook.com have contributor access to your subscription
+- The user selaindiabootcamp@outlook.com have access to your application (okta)
 
 ## Bonus
 
@@ -53,7 +53,7 @@ In this week’s project we are going to recreate the infrastructure of the Weig
 
 ## Delivery
 
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level
-- Grant rhinopsbootcamp@outlook.com access to your application (okta)
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level
+- Grant selaindiabootcamp@outlook.com access to your application (okta)
 - Fill out the following form: [Delivery Form](https://forms.gle/Abc1NF1xdN8TS8pu9)
 - Send on your 1-on-1 channel a screenshot of the Weight Tracker application running in your browser (after adding some data)

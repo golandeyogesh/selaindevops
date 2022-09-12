@@ -35,7 +35,7 @@ This week we are going to write an Ansible playbook(s) to configure the servers 
 - Create a third environment called "POC" in which you must use Windows servers and deploy the application  using Ansible
 
 ## Delivery
-- Grant contributor access to rhinopsbootcamp@outlook.com at your subscription level
-- Grant rhinopsbootcamp@outlook.com access to your application (okta)
+- Grant contributor access to selaindiabootcamp@outlook.com at your subscription level
+- Grant selaindiabootcamp@outlook.com access to your application (okta)
 - Fill out the following form: [Delivery Form](https://forms.gle/CTDhJk9ocYA74Ap97)
 - Send on your 1-on-1 channel a screenshot of the Weight Tracker application running in your browser (after adding some data)
