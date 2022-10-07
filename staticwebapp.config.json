@@ -30,7 +30,7 @@
       },
       {
         "route": "/week-06/*",
-        "allowedRoles": ["employee","student"]
+        "allowedRoles": ["employee","student","class4student"]
       },
       {
         "route": "/week-07/*",
