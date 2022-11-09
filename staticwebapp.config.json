@@ -42,7 +42,7 @@
       },
       {
         "route": "/week-11+12/*",
-        "allowedRoles": ["employee","student"]
+        "allowedRoles": ["employee","student","class4student"]
       },
       {
         "route": "/week-13/*",
